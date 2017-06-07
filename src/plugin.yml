@@ -1,0 +1,15 @@
+main: me.cazawhi.main.main
+name: Adjustments
+version: 1.0
+author: Cazawhi
+description: This Plugin contains hardcoded Server-Adjustments like Chat Formatting or World Protection.
+commands:
+   broadcast:
+      description: Broadcast a Message to all listening instances.
+      usage: /broadcast <message>
+   close:
+      description: Close the Server down for maintenance.
+      usage: /close
+   open:
+      description: Open the Server again.
+      usage: /open
